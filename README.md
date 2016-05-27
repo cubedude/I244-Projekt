@@ -48,6 +48,12 @@ Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel et 
 2. eemade läbimise kohta statistika kasutajatele külge
 3. Uute küsimuste küsimine läbi ajax requestide et tervet lehte igakord ei peaks laadima uuesti
 
+
+--
+#Hinnand
+Üldiselt tuli projekt päris hästi välja siiamaani: kõik asjad on ilusti organiseeritud ja kood näeb ilus välja. Iga asja jaoks on oma klass ning suutsin need ilusti kokku siduda. 
+Mis aga hetkel probleemiks jäi oli arendusaja puudus ehk ei ole veel suutnud kõiki featureid sisse panna mis oleks vaja, kuidagi tähelepanu hajus rohkem korrektse frameworki loomiseks nagu kõik klassid jms ning hiljem kujunduse peale nagu vahetatavad kaardi ja taustapildid. Koodi enda üle olen aga uhke.
+
 --
 #Plaanid
 Kindlasti see projekt ei sure siin ära ning teen jõudsalt edasi kuna see on kasulik tööriist millega õppida. Mida rohkem aineid siia lisada seda kasulikumaks see läheb mitte ainult minu jaoks vaid ka ehk mu kursuse kaaslaste kuna ka neil on vaja samu aineid läbida. 
