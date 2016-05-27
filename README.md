@@ -39,7 +39,7 @@ Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel.
 1. Index.php = terve tegevus tegelikult toimub ainult läbi index.php
 
 ###Js
-1. Projekt kasutab jquery 2.2.4 kuid hetkel suht minimaalsel moel.
+1. Projekt kasutab jquery 2.2.4 kuid hetkel suht minimaalsel moel. Kavas seda rohkem kasutada näiteks ajaxi päringute ja animatsioonide jaoks.
 
 
 --
@@ -51,3 +51,5 @@ Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel.
 --
 #Plaanid
 Kindlasti see projekt ei sure siin ära ning teen jõudsalt edasi kuna see on kasulik tööriist millega õppida. Mida rohkem aineid siia lisada seda kasulikumaks see läheb mitte ainult minu jaoks vaid ka ehk mu kursuse kaaslaste kuna ka neil on vaja samu aineid läbida. 
+
+Oleks lahe lisada visuaalselt näiteks kaardipakki kust tõmmates tulevad küsimuskaardid välja, õigesti vastates lähevad hunnikusse ja valest vastates tagasi pakki (see seob siis kokku ajaxiga küsimuste laadimisel).
