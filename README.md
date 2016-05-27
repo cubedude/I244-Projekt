@@ -48,7 +48,7 @@ Js:
 To-do
 --
 1. Uute teemade lisamine kasutajate poolt - lihtsalt pole jõudnud teha seda veel
-2. Teemade läbimise kohta statistika kasutajatele külge
+2. eemade läbimise kohta statistika kasutajatele külge
 3. Uute küsimuste küsimine läbi ajax requestide et tervet lehte igakord ei peaks laadima uuesti
 
 --
