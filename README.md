@@ -15,11 +15,11 @@ Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel.
 1. Kasutaja valib teema. Nagu näiteks hetkel on seal esimene CCNA ehk Cisco.
 2. Teema valides hakkavad keskmisele mängukaardile ilmuma küsimused ükshaaval suvalises järjekorras
 3. Kasutaja mõtleb kas ta teab antud küsimusele vastust.
-..1 Kui vastus on näieks liiga pikk või tahab midagi ülesse märkida siis vasakul pool on notepad.
-4. Vastust näeb kui küsimuskaardi peale klõpsata.
-5. Kasutaja valib ise kas ta vastus oli õige või vale. Mäng käib aususe peale, eesmärk on ikkagi õppida ja keegi statistikat ei pea.
-..1 Kui kasutaja valid vale, siis see küsimus pannakse "potti" tagasi ja seda küsitakse uuesti millagil
-..2 Kui kasutaja valis õige, siis võetakse uus küsimus kuni küsimused saavad otsa ja kasutaja viiakse peamenüüsse tagasi.
+4. Kui vastus on näieks liiga pikk või tahab midagi ülesse märkida siis vasakul pool on notepad.
+5. Vastust näeb kui küsimuskaardi peale klõpsata.
+6. Kasutaja valib ise kas ta vastus oli õige või vale. Mäng käib aususe peale, eesmärk on ikkagi õppida ja keegi statistikat ei pea.
+7. Kui kasutaja valid vale, siis see küsimus pannakse "potti" tagasi ja seda küsitakse uuesti millagil
+8. Kui kasutaja valis õige, siis võetakse uus küsimus kuni küsimused saavad otsa ja kasutaja viiakse peamenüüsse tagasi.
 
 
 --
