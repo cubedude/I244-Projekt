@@ -1,0 +1,1 @@
+<textarea class="notepad" placeholder="Notes..."></textarea>

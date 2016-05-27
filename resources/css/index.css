@@ -1,0 +1,94 @@
+/* ================= */
+/* === FONTS ===== */
+/* ================= */
+@font-face {
+    font-family: 'card';
+    src: url('../font/cardc___-webfont.woff2') format('woff2'),
+         url('../font/cardc___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ================= */
+/* === CONTENT ===== */
+/* ================= */
+.ui-button::selection, .ui-button ::selection {background:transparent;}
+.ui-button::-moz-selection, .ui-button ::-moz-selection {background:transparent;}
+
+* {resize:none;outline-width:0;}
+html, body, form {margin:0px;padding:0px; min-width:100%; min-height:100%;}
+html {overflow-y:scroll;}
+img {border:0px;}
+body {background: #282828;font-family: 'card', sans-serif; color:#1c1c1c; background:url(../img/bgs/bg_default.jpg) 50% 50% no-repeat; background-size:cover;}
+/* == */
+a  {font-weight:normal;text-decoration:none;color:#f20000; line-height:1.5em;}
+a:hover {font-weight:normal;text-decoration:none; color:#c20000;}
+/* == */
+h1{ text-align:center; letter-spacing:2px;}
+h2{ letter-spacing:2px; line-height:1.3em; }
+
+div, input, textarea, form, ul, a, span { box-sizing: border-box;  -moz-box-sizing: border-box;  -webkit-box-sizing: border-box; }
+
+.side { position:absolute; right:20px; top:20px; padding: 25px; width:100%; max-width:225px; height:100%; max-height:345px; background:url(../img/cards/card.jpg) 50% 50% no-repeat #fff; background-size:100% 100%; border-radius:15px; border:1px solid #000; perspective: 800px; }
+.side ul { list-style:none; margin:20px 10px; padding:0px; color:#fff; font-size:15px;}
+.side ul a { text-align:center; }
+.side h3{ text-align:center; color:#fff; font-size:17px;}
+.side input { width:100%; margin:5px 0px; padding: 10px; border-radius:3px; border:2px solid #000; }
+.side input.error { border:2px solid #F00; }
+.side input[type="submit"] { width:50%; float:left; cursor:pointer; font-weight:bold; background:#B2B2B2; border:1px solid #A01400;}
+.side input[type="submit"]:hover { background:#fff; }
+.side label { color:#fff;  text-align:center; line-height:1.3em; margin: 10px 5px; display: inline-block; width: 100%;}
+
+.side hr { border:none; border:2px solid #fff; }
+
+.side .icon { display:inline-block; width:31px; height:51px; padding:0px; margin:6px; border-radius:3px; border:1px solid #000; }
+.side .icon.card_0, .card_0 .card { background:url(../img/cards/card.jpg) 50% 50% no-repeat #fff; background-size:100% 100%; }
+.side .icon.card_1, .card_1 .card { background:url(../img/cards/poke.png) 50% 50% no-repeat #fff; background-size:100% 100%; }
+.side .icon.card_2, .card_2 .card { background:url(../img/cards/hs.png) 50% 50% no-repeat #fff; background-size:100% 100%; }
+.side .icon.card_3, .card_3 .card { background:url(../img/cards/yugi.png) 50% 50% no-repeat #fff; background-size:100% 100%; }
+
+.theme_0 { background:url(../img/bgs/bg_default.jpg) 50% 50% no-repeat #fff; background-size:cover; }
+.theme_1 { background:url(../img/bgs/bg_1.png) 50% 50% no-repeat #fff; background-size:cover; }
+.theme_2 { background:url(../img/bgs/bg_2.jpg) 50% 50% no-repeat #fff; background-size:cover; }
+.theme_3 { background:url(../img/bgs/bg_3.jpg) 50% 50% no-repeat #fff; background-size:cover; }
+
+.button { display:inline-block; width:100%; border-radius:6px; line-height:30px;text-align:center; cursor:pointer; font-weight:bold; color:#000; background:#B2B2B2; border:1px solid #A01400;}
+.button:hover { background:#fff; color:#000;}
+.button.half { width:85px; }
+
+.button.diamond {  background: url(../img/diamond.png) 5px 50% no-repeat; background-size: 20px; }
+.button.heart { background: url(../img/heart.png) 5px 50% no-repeat; background-size: 20px; }
+.button.spade {  background: url(../img/spade.png) 5px 50% no-repeat; background-size: 20px; color:#000; }
+.button.club {  background: url(../img/club.png) 5px 50% no-repeat; background-size: 20px; color:#000; }
+.button.club:hover, .button.spade:hover {  color:#6D6D6D; }
+
+.main { padding: 25px; margin: 10% auto 0; max-width:100%; width:225px; max-height:100%; height:345px; background:#fff; border-radius:15px; border:1px solid #000; perspective: 800px; }
+.main h3{ text-align:center; color:#000;}
+.main hr { border:none; border:2px solid #000; }
+.main ul { list-style:none; padding:0px; margin:10px 0px; font-size:14px;}
+.main ul li{ padding:0px; margin:5px 0px 5px 20px; position:relative;}
+.main ul li:before{ float:left; content:""; width:30px; height:20px; position:absolute; left:-30px; background: url(../img/spade.png) 5px 50% no-repeat; background-size: 20px; }
+.main ul li a{ display:inline-block; width:100%; color:#000;}
+.main ul li:hover:before{ background: url(../img/heart.png) 5px 50% no-repeat; background-size: 20px; }
+.main ul li:hover a{ color:#F00;}
+
+.question  { background:none; border:none; padding:0px; }
+.question > div { width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; transition: transform 1s;} 
+.question > div > figure { margin: 0; display: block; position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background:#fff; border-radius:6px; border:1px solid #000;}
+.question > div > figure > div{ display: flex; justify-content: center; align-items: center; width:145px; height:265px; text-align:center; vertical-align:middle; word-wrap: break-word; line-height:1.3em; margin:40px;}
+.question > div > figure > .button { font-weight:bold; font-size:12px; padding: 0px 0px 0px 20px; position:relative; bottom:40px; left:20px;}
+
+.question > div > .front { cursor:pointer;  }
+.question > div > .front:before, .question > div > .front:after, .question > div > .back:before, .question > div > .back:after  { content:"Q"; position:absolute; top:0; left:0; font-size:2em; line-height:normal; width:35px; text-align:center; padding: 10px 0px 20px 0px; background: url(../img/spade.png) 50% 100% no-repeat; background-size:20px; }
+.question > div > .front:after, .question > div > .back:after { top:auto; left:auto; bottom:0; right:0; -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+
+.question > div > .back { transform: rotateY( 180deg ); }
+.question > div > .back:before, .question > div > .back:after { content:"A"; background: url(../img/club.png) 50% 100% no-repeat; background-size:20px; }
+
+.question > .flipped { transform: rotateY( 180deg ); }
+
+.notepad { display:block; min-height:400px; min-width:100px; position:absolute; bottom: 10%; left:5%;-ms-transform: rotate(-7deg); -webkit-transform: rotate(-7deg); transform: rotate(-7deg); margin:0px; border: 1px solid #EEEEEE; box-shadow: 1px 1px 0 #DDDDDD; font-family: 'Marck Script',cursive; font-size: 22px; line-height: 50px; padding: 11px 20px 0 70px; resize: none;
+	background-color:#FFFDC4;
+	background-image: -moz-linear-gradient(top , transparent, transparent 49px,#B9B9B9 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
+	background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#B9B9B9 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+	-webkit-background-size:  100% 50px; background-size: 100% 50px;
+}
