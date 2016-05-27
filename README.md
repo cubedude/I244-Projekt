@@ -8,7 +8,7 @@ Aadress: http://dev.metsvahi.ee/
 Kuna iga tudeng peab tegema kontrolltöid ja eksameid, otsustasin luua veebi kus saaks õppida nendeks asjadeks äärmiselt effektiiselt. 
 Flash Card on veeb kus on kasutajate loodud teemad ja nende kohta küsimused ning neid saab siis läbi teha.
 Selleks, et läbida neid teemasid ei ole kontot vaja, küll aga konto kasutamine lubab luua oma enda teemasid ja soovi korral neid avalikustada ka teistele. 
-Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel.
+Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel et teha pilti veits ilusamaks.
 
 
 ###Kuidas teema läbimine käib on järgmine:
@@ -51,5 +51,7 @@ Samuti sisse loginud kasutajatel on võimalik valida erinevate teemade vahel.
 --
 #Plaanid
 Kindlasti see projekt ei sure siin ära ning teen jõudsalt edasi kuna see on kasulik tööriist millega õppida. Mida rohkem aineid siia lisada seda kasulikumaks see läheb mitte ainult minu jaoks vaid ka ehk mu kursuse kaaslaste kuna ka neil on vaja samu aineid läbida. 
+
+Muideks nii koodis kui ka andmebaasis tegin ma koha sisulehte haldamise jaoks aga leitsin et pole seda veel vaja niiet kärpisin praegu välja.
 
 Oleks lahe lisada visuaalselt näiteks kaardipakki kust tõmmates tulevad küsimuskaardid välja, õigesti vastates lähevad hunnikusse ja valest vastates tagasi pakki (see seob siis kokku ajaxiga küsimuste laadimisel).
